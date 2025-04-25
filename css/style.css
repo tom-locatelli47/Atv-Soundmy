@@ -29,6 +29,7 @@ button {
     border: none;
     color: #fff;
     border-radius: 15px;
+    padding: 8px;
     }
 
 h1 {
@@ -53,21 +54,17 @@ header ul li {
     padding: 10px 0 10px 0;
   }
 
-header nav h1 {
-    font-size: 1rem;
-
+header h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 10px 0 10px 0;
 }
 
-button {
-background-color: #0E8388;
-border: none;
-color: #fff;
-border-radius: 15px;
-}
+
 
 main h1 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 15px;
 }
 
@@ -101,7 +98,7 @@ main section.meio ul li span {
 }
 
 main section.meio ul li h2{
-   font-size: 1rem; 
+   font-size: 1.2rem; 
    margin: 0 0 10px 0;
 
 }
@@ -109,6 +106,11 @@ main section.meio ul li h2{
 main section.meio ul li span p {
     margin: 15px 0 20px;
     padding: 15px;
+}
+
+section.final h1 {
+    margin: 8vw 0 0 0;
+    
 }
 
 section.final p {
@@ -121,6 +123,12 @@ section.final ul li {
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+section.final ul li h1 {
+    padding: 10px;
+    margin: 10px 0 0 0;
+    text-align: center;
+
 }
 
 footer {
@@ -140,4 +148,8 @@ footer p{
 
 footer ul li{
     margin: 20px;
+}
+/*==========================================Para Pc=========================================================*/
+@media (min-width: 900px) {
+    
 }
